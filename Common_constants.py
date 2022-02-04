@@ -23,4 +23,4 @@ log_dir = "./logs"
 
 SMALL_NUM = 1e-8
 
-env_name = 'Dummy_Name_To_Update_To_Levels'
+env_name = './Dummy_Name_To_Update_To_Levels'

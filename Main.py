@@ -43,7 +43,7 @@ def train(load = True):
       AUX.loader([value_network,policy_network],save_path)
       
     for ii in range(num_actors):
-        actors.append(ME.EnvActor(ME.SubProcessEnv(env_name, env)))
+        actors.append(ME.EnvActor(ME.SubProcessEnv(env_name)))
 
     while t <= max_steps:
         learning_rate = base_learning_rate * ME.alpha_anneal(t)        
