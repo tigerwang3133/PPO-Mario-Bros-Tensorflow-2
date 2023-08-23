@@ -1,3 +1,4 @@
 from Main import train
+from Main import test
 
-train(True)
+test(10,1)
